@@ -1,0 +1,25 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 87vh;
+}
+.main-container {
+  padding: 40px 50px;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.tracker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: #00e7ff;
+}
